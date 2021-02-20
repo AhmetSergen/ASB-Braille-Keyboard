@@ -15,26 +15,22 @@ Bu projeye teşvik ve desteklerinden dolayı sayın Prof. Dr. Ali Boyacı öğre
 ## İÇİNDEKİLER
 
 <ul>
-  <tr>ÖZET</tr>
-  <tr>1.GİRİŞ</tr>
-  <tr>
+  <li>ÖZET</li>
+  <li>1.GİRİŞ</li>
+  <li>
     <ul>
-      <tr>1.1 Mobil Cihazlarda Sanal Klavye Hakkında</tr>
-      <tr>1.2 Görme Engelli İnsanlar Hakkında</tr>
-      <tr>
+      <li>1.1 Mobil Cihazlarda Sanal Klavye Hakkında</li>
+      <li>1.2 Görme Engelli İnsanlar Hakkında</li>
+      <li>
         <ul>
-          <tr>1.2.1 Görme Engelli İnsanların Hayatta Karşılaştıkları Zorluklar</tr>
+          <li>1.2.1 Görme Engelli İnsanların Hayatta Karşılaştıkları Zorluklar</li>
         </ul>
-      </tr>
+      </li>
       
     </ul>
-  </tr>
-  <tr></tr>
-  <tr></tr>
-  <tr></tr>
-  <tr></tr>
-  <tr></tr>
-  <tr></tr>
+  </li>
+  
+  <li></li>
 </ul>
 
 
@@ -338,12 +334,23 @@ IMAGE
 
 ### LİSANS
 
-Kar amacı gütmeyen bu projede ortaya çıkarılan "ASB Braille Keyboard" sanal klavye uygulaması, tamamen açık kaynak koda sahiptir ve bu şekilde kalacaktır.
-Uygulama 
+"ASB Braille Keyboard" uygulaması "GNU General Public License 2.0" ile korunmaktadır.
+Kar amacı gütmeyen bu projede ortaya çıkarılan "ASB Braille Keyboard" sanal klavye uygulaması, tamamen açık kaynak bir uygulamadır ve bu şekilde kalacaktır.
 
 ### KAYNAKLAR
 
-
+[1]EyDer. 23 Mayıs 2020 tarihinde https://ey-der.com/ana-sayfa/turkiye-ve-dunyada-engelliler/ adresinden erişildi.
+[2]Wikipedia (2020). 23 Mayıs 2020 tarihinde https://en.wikipedia.org/wiki/Braille adresinden erişildi.
+[3] Maberley DA, Hollands H, Chuo J, Tam G, Konkal J, Roesch M, et al. (2006). "The prevalence of low vision and blindness in Canada". Eye. 20.
+[4]WHO (2012). “Global Data On Visual Impairment”. sf.6. Fig 2A. 
+[5]WHO (2012). “Global Data On Visual Impairment”. sf.6. Fig 2B. 
+[6]WHO (2012). “Global Data On Visual Impairment”. sf.5. Table 3. 
+[7]Royalblind. 24 Mayıs 2020 tarihinde https://www.royalblind.org/national-braille-week/about-braille/who-was-louis-braille/ adresinden erişildi.
+[8]PharmaBraille. 25 Mayıs 2020 tarihinde https://www.pharmabraille.com/pharmaceutical-braille/the-braille-alphabet/ adresinden erişildi.
+[9]PharmaBraille (2017). 25 Mayıs 2020 tarihinde https://www.pharmabraille.com/braille-codes/turkey-braille-code/ adresinden erişildi.
+[10]Wikipedia (2020). 26 Mayıs 2020 tarihinde https://en.wikipedia.org/wiki/Android_%28operating_system%29#cite_note-12 adresinden erişildi
+[11]New Media Rights (2015). 26 Mayıs 2020 tarihinde https://www.newmediarights.org/open_source/new_media_rights_open_source_licensing_guide adresinden erişildi.
+[12]Wikipedia (2020). 26 Mayıs 2020 tarihinde https://en.wikipedia.org/wiki/Java_%28programming_language%29 adresinden erişilmiştir.
 
 
 
