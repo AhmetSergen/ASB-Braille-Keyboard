@@ -243,7 +243,7 @@ Ayarlar menüsüne geçildiği sesli bir geri bildirim ile bildirilir. Burada he
 6 numaralı nokta titreşimleri açar.
 Ayarlar menüsünden çıkılmak istendiğinde, giriş için kullanılan 123456 braille kodunun yazılması yeterlidir. 
 
-### 2. METOT VE MATERYAL
+## 2. METOT VE MATERYAL
 
 ### 2.1 Android İşletim Sistemi Hakkında
 
@@ -351,7 +351,7 @@ Klavye algoritmasının çalışma aşamaları temel olarak şöyledir:
 5) Yazım sırasında aktif olan belirteçler de göz önünde bulundurularak braille kodu kullanılır. Eğer bir girdi yapılacak ise braille kodunun temsil ettiği karakterin karşılığı olan ascii kodu veri tabanından bulunur.
 6) Bir braille karakteri için tüm işlemler tamamlanınca, klavye tekrar bekleme durumuna döner.
 
-### 3. SONUÇLAR VE DEĞERLENDİRME
+## 3. SONUÇLAR VE DEĞERLENDİRME
 
 Sonuç olarak, geliştirilen ASB Braille klavyesi görme engelli bireyler için özel olarak geliştirilmiş, cihaza kurulumu yapıldıktan sonra, herhangi bir yazı alanı ile etkileşime girildiğinde girdi işlemi için klavye olarak kullanılabilir. 
 Ekrana dokunularak verilen tuş komutlarının yanı sıra aşağı, yukarı, sağa ve sola kaydırma işlemleri ile farklı komutlar verilebiliyor.
@@ -362,12 +362,12 @@ Ayarlar menüsüne kolayca girip çıkılabiliyor ve yazma gecikmesi, titreşim 
 
 IMAGE
 
-### LİSANS
+## LİSANS
 
 "ASB Braille Keyboard" uygulaması "GNU General Public License 2.0" ile korunmaktadır.
 Kar amacı gütmeyen bu projede ortaya çıkarılan "ASB Braille Keyboard" sanal klavye uygulaması, tamamen açık kaynak bir uygulamadır ve bu şekilde kalacaktır.
 
-### KAYNAKLAR
+## KAYNAKLAR
 
 [1]EyDer. 23 Mayıs 2020 tarihinde https://ey-der.com/ana-sayfa/turkiye-ve-dunyada-engelliler/ adresinden erişildi.
 [2]Wikipedia (2020). 23 Mayıs 2020 tarihinde https://en.wikipedia.org/wiki/Braille adresinden erişildi.
