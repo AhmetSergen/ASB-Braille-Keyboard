@@ -26,8 +26,55 @@ Bu projeye teşvik ve desteklerinden dolayı sayın Prof. Dr. Ali Boyacı öğre
           <li>1.2.1 Görme Engelli İnsanların Hayatta Karşılaştıkları Zorluklar</li> 
         </ul>
       </li>
-  
-  <li></li>
+      <li>1.3 Braille Alfabesi Hakkında</li>
+      <li>
+        <ul>
+          <li>1.3.1 Louis Braille</li>
+          <li>1.3.2 Braille Alfabesi Hakkında</li>
+          <li>1.3.3 Braille Alfabesi Kullanım Alanları</li>
+        </ul>
+      </li>
+      <li>1.4 Neden Sesli Komut Yerine Sanal Klavye Tercih Edilebilir?</li>
+      <li>1.5 ASB Braille Klavyesi Hakkında</li>
+      <li>
+        <ul>
+          <li>1.5.1 Braille Alfabesinin Sanal Klavyeye Uyarlanması</li>
+          <li>1.5.2 ASB Braille Klavyesinin Cihaza Kurulumu</li>
+          <li>1.5.3 ASB Braille Klavyesinin Kullanımı</li>
+          <li>
+            <ul>
+              <li>1.5.3.1 Yazılacak Karakterin Dokunmatik Ekranda "Betimlenmesi"</li>
+              <li>1.5.3.2 Belirteç Kullanımı</li>
+              <li>1.5.3.3 Ayarlar</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>2. METOT VE MATERYAL</li>
+      <li>
+        <ul>
+          <li>2.1 Android İşletim Sistemi Hakkında</li>
+          <li>2.2 Yazılım Ortamı ve Kullanılan Araçlar Hakkında</li>
+          <li>
+            <ul>
+              <li>2.2.1 Java Dili Hakkında</li>
+              <li>2.2.2 Android Studio Hakkında</li>
+              <li>2.2.3 Input Method Editor</li>
+            </ul>
+          </li>
+          <li>2.3 Klavye Algoritması ve Çalışma Prensibi</li>
+          <li>
+            <ul>
+              <li>2.3.1 Karakter Betimlemesinin Algılanması</li>
+              <li>2.3.2 Karakter Betimlemesinin İşlenmesi</li>
+              <li>2.3.3 Yapılacak Girdinin Kararlaştırılması ve Girdinin Tamamlanması</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+  <li>3. SONUÇLAR VE DEĞERLENDİRME</li>
+      <li>LİSANS</li>
+      <li>KAYNAKLAR</li>
 </ul>
 
 
