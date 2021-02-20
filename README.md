@@ -16,7 +16,7 @@ Bu projeye teşvik ve desteklerinden dolayı sayın Prof. Dr. Ali Boyacı öğre
 
 <ul>
   <li>ÖZET</li>
-  <li>1.GİRİŞ</li>
+  <li>1. GİRİŞ</li>
     <ul>
       <li>1.1 Mobil Cihazlarda Sanal Klavye Hakkında</li>
       <li>1.2 Görme Engelli İnsanlar Hakkında</li>     
@@ -371,7 +371,7 @@ Kar amacı gütmeyen bu projede ortaya çıkarılan "ASB Braille Keyboard" sanal
 
 [1]EyDer. 23 Mayıs 2020 tarihinde https://ey-der.com/ana-sayfa/turkiye-ve-dunyada-engelliler/ adresinden erişildi.
 [2]Wikipedia (2020). 23 Mayıs 2020 tarihinde https://en.wikipedia.org/wiki/Braille adresinden erişildi.
-[3] Maberley DA, Hollands H, Chuo J, Tam G, Konkal J, Roesch M, et al. (2006). "The prevalence of low vision and blindness in Canada". Eye. 20.
+[3]Maberley DA, Hollands H, Chuo J, Tam G, Konkal J, Roesch M, et al. (2006). "The prevalence of low vision and blindness in Canada". Eye. 20.
 [4]WHO (2012). “Global Data On Visual Impairment”. sf.6. Fig 2A. 
 [5]WHO (2012). “Global Data On Visual Impairment”. sf.6. Fig 2B. 
 [6]WHO (2012). “Global Data On Visual Impairment”. sf.5. Table 3. 
