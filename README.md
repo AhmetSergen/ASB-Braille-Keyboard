@@ -31,7 +31,6 @@ Bu projeye teşvik ve desteklerinden dolayı sayın Prof. Dr. Ali Boyacı öğre
         </ul>  
       <li>1.4 Neden Sesli Komut Yerine Sanal Klavye Tercih Edilebilir?</li>
       <li>1.5 ASB Braille Klavyesi Hakkında</li>
-      <li>
         <ul>
           <li>1.5.1 Braille Alfabesinin Sanal Klavyeye Uyarlanması</li>
           <li>1.5.2 ASB Braille Klavyesinin Cihaza Kurulumu</li>
@@ -43,7 +42,6 @@ Bu projeye teşvik ve desteklerinden dolayı sayın Prof. Dr. Ali Boyacı öğre
             </ul>        
         </ul>
       <li>2. METOT VE MATERYAL</li>
-      <li>
         <ul>
           <li>2.1 Android İşletim Sistemi Hakkında</li>
           <li>2.2 Yazılım Ortamı ve Kullanılan Araçlar Hakkında</li>
@@ -59,7 +57,6 @@ Bu projeye teşvik ve desteklerinden dolayı sayın Prof. Dr. Ali Boyacı öğre
               <li>2.3.3 Yapılacak Girdinin Kararlaştırılması ve Girdinin Tamamlanması</li>
             </ul>
         </ul>
-      </li>
       <li>3. SONUÇLAR VE DEĞERLENDİRME</li>
       <li>LİSANS</li>
       <li>KAYNAKLAR</li>
