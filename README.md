@@ -142,6 +142,7 @@ Braille alfabesi kullanılacağı yüzeylerde kolay anlaşılması ve verimli ol
 6 noktadan her birinin kabartılması ya da kabartılmaması durumu bize 2^6 = 64 farklı karakteri ayrı ayrı belirtebilmemize olanak sağlar (PharmaBraille)[8].
 
 IMAGE
+<img src="https://github.com/AhmetSergen/ASB-Braille-Keyboard/blob/main/Images/braille-alphabet-and-braille-numbers.png" width="100%" alt="test1">
 
 Tüm braille karakterlerini sayısal bir braille kodu ile belirtmek için, bir braille karakterinde kullanılan noktalar sol üstten sol alta ve sağ üstten sağ alta sıralı şekilde 1’den 6 ‘ya kadar numaralandırılır.
 
