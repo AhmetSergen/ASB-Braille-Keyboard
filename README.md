@@ -367,7 +367,7 @@ Ayarlar menüsüne kolayca girip çıkılabiliyor ve yazma gecikmesi, titreşim 
 
 ## LİSANS
 
-"ASB Braille Keyboard" uygulaması "GNU General Public License 2.0" ile korunmaktadır.
+"ASB Braille Keyboard" uygulaması "GNU General Public License 3.0" ile korunmaktadır.
 Kar amacı gütmeyen bu projede ortaya çıkarılan "ASB Braille Keyboard" sanal klavye uygulaması, tamamen açık kaynak bir uygulamadır ve bu şekilde kalacaktır.
 
 ## KAYNAKLAR
