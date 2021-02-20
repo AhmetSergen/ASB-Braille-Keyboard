@@ -387,7 +387,7 @@ Kar amacı gütmeyen bu projede ortaya çıkarılan "ASB Braille Keyboard" sanal
 
 <br><br>
 
-# Kullanıcı Kılavuzu [TR]
+# Kullanım Kılavuzu [TR]
 
 ## Kurulum
 
