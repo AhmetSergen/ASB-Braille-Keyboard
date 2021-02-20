@@ -1,5 +1,5 @@
 # ASB-Braille-Keyboard
-Virtual keyboard based on Braille writing system for people who has visual problems.
+Virtual keyboard for Android mobile devices based on Braille writing system for people who has visual problems.
 
 <br><br>
 
