@@ -6,7 +6,7 @@ Virtual keyboard based on Braille writing system for people who has visual probl
 ## ÖNSÖZ
 
 Dünya üzerinde 1 milyardan fazla engelli birey yaşamaktadır (ey-der)[1], ve hayatın belirli noktalarında zorluk çekmektedirler.
-ASB Braille Klavyesi, braille alfabesi ilkelerini kullanarak görme engelli insanların mobil cihazlarda yazılı mesaj girdisi yapma ihtiyaçlarını bir nebze olsun gidermeyi amaçlayan,
+ASB Braille Klavyesi, Braille yazma sistemi ilkelerini kullanarak görme engelli insanların mobil cihazlarda yazılı mesaj girdisi yapma ihtiyaçlarını bir nebze olsun gidermeyi amaçlayan,
 görme yetisini tamamen veya kısmen yitirmiş bireylerin rahatca kullanabilceği bir sanal klavye uygulamasıdır.
 Bu raporda görme engelli bireylerin sorunları ve hayatta karşılaşabildikleri zorluklar tanımlanmış, braille alfabesi ve kuralları tanıtılmış, 
 sanal klavyenin ne olduğu ve bahsi geçen ASB Braille klavyesinin nasıl çalıştığı teknik detaylarla açıklanmıştır.
