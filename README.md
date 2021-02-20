@@ -41,6 +41,7 @@ Bu projeye teşvik ve desteklerinden dolayı sayın Prof. Dr. Ali Boyacı öğre
               <li>1.5.3.3 Ayarlar</li>
             </ul>        
         </ul>
+      </ul>
       <li>2. METOT VE MATERYAL</li>
         <ul>
           <li>2.1 Android İşletim Sistemi Hakkında</li>
