@@ -276,9 +276,7 @@ Bu yapı sayesinde kullanıcının girdi yapmak istediği karakter anlaşılır 
 
 Uygulama ön yüzünde betimlenen karakterin doğru şekilde algılanması ve hataların kapatılabileceği bir zemin hazırlanması amacıyla özel olarak konumlandırılmış 28 farklı düğmeden oluşur.
 
-<img src="https://github.com/AhmetSergen/ASB-Braille-Keyboard/blob/main/Images/buttons1.png" width="30%" alt="test1">
-<img src="https://github.com/AhmetSergen/ASB-Braille-Keyboard/blob/main/Images/buttons2.png" width="30%" alt="test1">
-<img src="https://github.com/AhmetSergen/ASB-Braille-Keyboard/blob/main/Images/buttons3.png" width="30%" alt="test1">
+<img src="https://github.com/AhmetSergen/ASB-Braille-Keyboard/blob/main/Images/buttons1.png" width="30%" alt="test1"> <img src="https://github.com/AhmetSergen/ASB-Braille-Keyboard/blob/main/Images/buttons2.png" width="30%" alt="test1"> <img src="https://github.com/AhmetSergen/ASB-Braille-Keyboard/blob/main/Images/buttons3.png" width="30%" alt="test1">
 
 Bu düğmeler yeşil renk ile gösterilen “Kesin doğruluk” ve sarı renk ile gösterilen “Olası doğruluk” olarak iki kategoriye ayrılmıştır. 
 Braille karakterinde noktaların olması gereken konumlarına asıl yakın ve büyük olan düğmeler “Kesin doğruluk” düğmelerdir. 
@@ -362,7 +360,7 @@ Yazma aşamasında dokunulan yerler braille kodundaki kadar tutarlı olmasa bile
 Tüm Türkçe karakterleri destekleniyor ve İngilizce seslendirmenin yanında Türkçe seslendirme de mevcut. 
 Ayarlar menüsüne kolayca girip çıkılabiliyor ve yazma gecikmesi, titreşim ve seslendirme ile ilgili ayarlamalar yapılabiliyor.
 
-<img src="https://github.com/AhmetSergen/ASB-Braille-Keyboard/blob/main/Images/Screenshot1.png" width="30%" alt="test1"><img src="https://github.com/AhmetSergen/ASB-Braille-Keyboard/blob/main/Images/Screenshot2.png" width="30%" alt="test1"><img src="https://github.com/AhmetSergen/ASB-Braille-Keyboard/blob/main/Images/Screenshot3.png" width="30%" alt="test1">
+<img src="https://github.com/AhmetSergen/ASB-Braille-Keyboard/blob/main/Images/Screenshot1.png" width="30%" alt="test1"> <img src="https://github.com/AhmetSergen/ASB-Braille-Keyboard/blob/main/Images/Screenshot2.png" width="30%" alt="test1"> <img src="https://github.com/AhmetSergen/ASB-Braille-Keyboard/blob/main/Images/Screenshot3.png" width="30%" alt="test1">
 
 ## LİSANS
 
