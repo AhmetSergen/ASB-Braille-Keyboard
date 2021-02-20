@@ -1,16 +1,17 @@
 # ASB-Braille-Keyboard
 Virtual keyboard based on Braille writing system for people who has visual problems.
 
+<br><br><br><br>
+
 # Açıklama [TR]
 
 ## ÖNSÖZ
 
-Dünya üzerinde 1 milyardan fazla engelli birey yaşamaktadır (ey-der)[1], ve hayatın belirli noktalarında zorluk çekmektedirler.
-ASB Braille Klavyesi, Braille yazma sistemi ilkelerini kullanarak görme engelli insanların mobil cihazlarda yazılı mesaj girdisi yapma ihtiyaçlarını bir nebze olsun gidermeyi amaçlayan,
-görme yetisini tamamen veya kısmen yitirmiş bireylerin rahatca kullanabilceği bir sanal klavye uygulamasıdır.
+Dünya üzerinde 1 milyardan fazla engelli birey yaşamaktadır (ey-der)[1], ve hayatın belirli noktalarında zorluk çekmektedirler.<br>
+ASB Braille Klavyesi, Braille yazma sistemi ilkelerini kullanarak görme engelli insanların mobil cihazlarda yazılı mesaj girdisi yapma ihtiyaçlarını bir nebze olsun gidermeyi amaçlayan, görme yetisini tamamen veya kısmen yitirmiş bireylerin rahatca kullanabilceği bir sanal klavye uygulamasıdır.<br>
 Bu raporda görme engelli bireylerin sorunları ve hayatta karşılaşabildikleri zorluklar tanımlanmış, braille alfabesi ve kuralları tanıtılmış, 
-sanal klavyenin ne olduğu ve bahsi geçen ASB Braille klavyesinin nasıl çalıştığı teknik detaylarla açıklanmıştır.
-Bu projeye teşvik ve desteklerinden dolayı sayın Prof. Dr. Ali Boyacı öğretmenime teşekkürlerimi sunarım.
+sanal klavyenin ne olduğu ve bahsi geçen ASB Braille klavyesinin nasıl çalıştığı teknik detaylarla açıklanmıştır.<br>
+Bu projeye teşvik ve desteklerinden dolayı sayın Prof. Dr. Ali Boyacı öğretmenime teşekkürlerimi sunarım.<br>
 
 ## İÇİNDEKİLER
 
@@ -381,6 +382,8 @@ Kar amacı gütmeyen bu projede ortaya çıkarılan "ASB Braille Keyboard" sanal
 [10]Wikipedia (2020). 26 Mayıs 2020 tarihinde https://en.wikipedia.org/wiki/Android_%28operating_system%29#cite_note-12 adresinden erişildi.<br>
 [11]New Media Rights (2015). 26 Mayıs 2020 tarihinde https://www.newmediarights.org/open_source/new_media_rights_open_source_licensing_guide adresinden erişildi.<br>
 [12]Wikipedia (2020). 26 Mayıs 2020 tarihinde https://en.wikipedia.org/wiki/Java_%28programming_language%29 adresinden erişilmiştir.<br>
+
+<br><br><br><br>
 
 # Kullanıcı Kılavuzu [TR]
 
