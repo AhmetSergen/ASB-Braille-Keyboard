@@ -5,7 +5,7 @@ Virtual keyboard based on Braille writing system for people who has visual probl
 
 # Açıklama [TR]
 
-<br>
+Görme sorunu yaşayan insanlar için geliştirilmiş, Android mobil cihazlarda kullanılabilen, Braille yazı sistemi tabanlı ekran klavyesi.
 
 ## ÖNSÖZ
 
