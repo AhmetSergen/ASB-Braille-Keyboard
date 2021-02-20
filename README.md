@@ -17,7 +17,6 @@ Bu projeye teşvik ve desteklerinden dolayı sayın Prof. Dr. Ali Boyacı öğre
 <ul>
   <li>ÖZET</li>
   <li>1.GİRİŞ</li>
-  <li>
     <ul>
       <li>1.1 Mobil Cihazlarda Sanal Klavye Hakkında</li>
       <li>1.2 Görme Engelli İnsanlar Hakkında</li>
@@ -49,7 +48,6 @@ Bu projeye teşvik ve desteklerinden dolayı sayın Prof. Dr. Ali Boyacı öğre
             </ul>
           </li>
         </ul>
-      </li>
       <li>2. METOT VE MATERYAL</li>
       <li>
         <ul>
