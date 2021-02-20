@@ -291,7 +291,7 @@ Ve bu düğmeye basıldığında öncelikli olarak 1 numaralı noktaya, ikincik 
 Bu nedenle bu düğme “14” değerini taşır. “Olası doğruluk” kategorisinde olan düğmelerin taşıdıkları değerlerin soldaki rakamı her zaman öncelikli olan değerdir ve büyük ihtimalle kullanıcının dokunmak istediği braille noktasının numarasıdır. 
 Sağdaki diğer rakam ise bir hata durumunda kullanıcının dokunmak istemiş olabileceği bir diğer braille noktasının numarasıdır.
 
-<img src="https://github.com/AhmetSergen/ASB-Braille-Keyboard/blob/main/Images/buttons4.png" alt="test1">
+<img src="https://github.com/AhmetSergen/ASB-Braille-Keyboard/blob/main/Images/buttons4.png" height="200px" alt="test1">
 
 Kullanıcı girmek istediği karakterin braille kodundaki noktaların konumlarına tıklarken, birden fazla nokta gerektiren braille karakterleri için ekrana birden fazla tıklamalıdır. 
 O an tıklanan konumdaki noktaların tek bir karaktere mi yoksa birden farklı karaktere mi ait olduğunun anlaşılabilmesi için, yazılan karakterin betimlenmesi (yani braille karakterinin noktalarının konumlarına dokunulması) ile onaylanması arasında belirli bir yazma gecikmesi vardır. 
