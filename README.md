@@ -1,9 +1,11 @@
 # ASB-Braille-Keyboard
 Virtual keyboard based on Braille writing system for people who has visual problems.
 
-<br><br><br><br>
+<br><br>
 
 # Açıklama [TR]
+
+<br>
 
 ## ÖNSÖZ
 
@@ -383,7 +385,7 @@ Kar amacı gütmeyen bu projede ortaya çıkarılan "ASB Braille Keyboard" sanal
 [11]New Media Rights (2015). 26 Mayıs 2020 tarihinde https://www.newmediarights.org/open_source/new_media_rights_open_source_licensing_guide adresinden erişildi.<br>
 [12]Wikipedia (2020). 26 Mayıs 2020 tarihinde https://en.wikipedia.org/wiki/Java_%28programming_language%29 adresinden erişilmiştir.<br>
 
-<br><br><br><br>
+<br><br>
 
 # Kullanıcı Kılavuzu [TR]
 
