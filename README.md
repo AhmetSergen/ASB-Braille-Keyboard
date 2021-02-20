@@ -150,7 +150,7 @@ Tüm braille karakterlerini sayısal bir braille kodu ile belirtmek için, bir b
 Yalnızca kabartılmış (işaretlenmiş) noktalara ait numaraların küçükten büyüğe sıralanması ile oluşan rakamsal kod, braille karakterini görsel olmadan belirtmekte kullanılır. 
 İlerleyen bölümlerde bu yöntem kullanılacaktır.
 
-<img src="https://github.com/AhmetSergen/ASB-Braille-Keyboard/blob/main/Images/example.png" width="100%" alt="test1">
+<img src="https://github.com/AhmetSergen/ASB-Braille-Keyboard/blob/main/Images/example.png" alt="test1">
 
 Braille alfabesinde dünya çapında genel olarak kullanılan karakterlerin dışında Türkçe karakterler, noktalama işaretleri ve bazı özel karakterler de mevcuttur. 
 Braille alfabesinde bazı durumlarda sıradaki kullanılacak olan karakter ya da karakterlerin nasıl yorumlanacağını belirten belirteçler (indicators) kullanılır. 
@@ -276,7 +276,6 @@ Bu yapı sayesinde kullanıcının girdi yapmak istediği karakter anlaşılır 
 
 Uygulama ön yüzünde betimlenen karakterin doğru şekilde algılanması ve hataların kapatılabileceği bir zemin hazırlanması amacıyla özel olarak konumlandırılmış 28 farklı düğmeden oluşur.
 
-IMAGE
 <img src="https://github.com/AhmetSergen/ASB-Braille-Keyboard/blob/main/Images/buttons1.png" width="30%" alt="test1">
 <img src="https://github.com/AhmetSergen/ASB-Braille-Keyboard/blob/main/Images/buttons2.png" width="30%" alt="test1">
 <img src="https://github.com/AhmetSergen/ASB-Braille-Keyboard/blob/main/Images/buttons3.png" width="30%" alt="test1">
@@ -294,7 +293,6 @@ Ve bu düğmeye basıldığında öncelikli olarak 1 numaralı noktaya, ikincik 
 Bu nedenle bu düğme “14” değerini taşır. “Olası doğruluk” kategorisinde olan düğmelerin taşıdıkları değerlerin soldaki rakamı her zaman öncelikli olan değerdir ve büyük ihtimalle kullanıcının dokunmak istediği braille noktasının numarasıdır. 
 Sağdaki diğer rakam ise bir hata durumunda kullanıcının dokunmak istemiş olabileceği bir diğer braille noktasının numarasıdır.
 
-IMAGE
 <img src="https://github.com/AhmetSergen/ASB-Braille-Keyboard/blob/main/Images/buttons4.png" width="50%" alt="test1">
 
 Kullanıcı girmek istediği karakterin braille kodundaki noktaların konumlarına tıklarken, birden fazla nokta gerektiren braille karakterleri için ekrana birden fazla tıklamalıdır. 
@@ -364,9 +362,7 @@ Yazma aşamasında dokunulan yerler braille kodundaki kadar tutarlı olmasa bile
 Tüm Türkçe karakterleri destekleniyor ve İngilizce seslendirmenin yanında Türkçe seslendirme de mevcut. 
 Ayarlar menüsüne kolayca girip çıkılabiliyor ve yazma gecikmesi, titreşim ve seslendirme ile ilgili ayarlamalar yapılabiliyor.
 
-<img src="https://github.com/AhmetSergen/ASB-Braille-Keyboard/blob/main/Images/Screenshot1.png" width="30%" alt="test1">
-<img src="https://github.com/AhmetSergen/ASB-Braille-Keyboard/blob/main/Images/Screenshot2.png" width="30%" alt="test1">
-<img src="https://github.com/AhmetSergen/ASB-Braille-Keyboard/blob/main/Images/Screenshot3.png" width="30%" alt="test1">
+<img src="https://github.com/AhmetSergen/ASB-Braille-Keyboard/blob/main/Images/Screenshot1.png" width="30%" alt="test1"><img src="https://github.com/AhmetSergen/ASB-Braille-Keyboard/blob/main/Images/Screenshot2.png" width="30%" alt="test1"><img src="https://github.com/AhmetSergen/ASB-Braille-Keyboard/blob/main/Images/Screenshot3.png" width="30%" alt="test1">
 
 ## LİSANS
 
