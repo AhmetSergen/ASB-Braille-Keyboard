@@ -22,13 +22,8 @@ Bu projeye teşvik ve desteklerinden dolayı sayın Prof. Dr. Ali Boyacı öğre
       <li>1.1 Mobil Cihazlarda Sanal Klavye Hakkında</li>
       <li>1.2 Görme Engelli İnsanlar Hakkında</li>
       <li>
-        <ul>
-          <li>1.2.1 Görme Engelli İnsanların Hayatta Karşılaştıkları Zorluklar</li>
-        </ul>
+          <li>1.2.1 Görme Engelli İnsanların Hayatta Karşılaştıkları Zorluklar</li> 
       </li>
-      
-    </ul>
-  </li>
   
   <li></li>
 </ul>
