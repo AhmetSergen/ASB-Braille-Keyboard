@@ -145,7 +145,7 @@ Braille alfabesi kullanılacağı yüzeylerde kolay anlaşılması ve verimli ol
 
 Tüm braille karakterlerini sayısal bir braille kodu ile belirtmek için, bir braille karakterinde kullanılan noktalar sol üstten sol alta ve sağ üstten sağ alta sıralı şekilde 1’den 6 ‘ya kadar numaralandırılır.
 
-<img src="https://github.com/AhmetSergen/ASB-Braille-Keyboard/blob/main/Images/brailleNumber.jpg" width="100%" alt="test1">
+<img src="https://github.com/AhmetSergen/ASB-Braille-Keyboard/blob/main/Images/brailleNumber.jpg" alt="test1">
 
 Yalnızca kabartılmış (işaretlenmiş) noktalara ait numaraların küçükten büyüğe sıralanması ile oluşan rakamsal kod, braille karakterini görsel olmadan belirtmekte kullanılır. 
 İlerleyen bölümlerde bu yöntem kullanılacaktır.
