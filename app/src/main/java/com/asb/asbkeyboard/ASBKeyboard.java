@@ -11,7 +11,6 @@ import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.inputmethod.InputConnection;
-
 import java.util.Locale;
 import java.util.Timer;
 import java.util.TimerTask;
