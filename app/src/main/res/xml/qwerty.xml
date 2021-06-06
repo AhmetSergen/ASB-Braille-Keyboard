@@ -6,15 +6,15 @@
 
     <!-- Description -->
     <!--
+    Each button code has a primary and secondary braille code number. (Ex: for number 14 -> 1: Primary, 4: Secondary)
     android:codes="14" -> means that if this button is pressed,
-    number 1 braille dot should be embossed,
-    or if number 1 is already embossed, then number 4 braille dot should be embossed, for current braille character.
+    number 1 braille dot should be raised,
+    or if number 1 is already raised, then number 4 braille dot should be raised, for current braille character.
     -->
 
     <!-- Note: Keyboard Layout 1 (which is the original and considered the most suitable layout) is unavailable to use for now (01.06.2021) due to problems with some devices. -->
     <!-- Problem: Due to different resolution ratios, 28 button Layout 1 is unusable because some of the keyboard buttons may not be pressed. -->
     <!-- Instead of, Keyboard Layout 2 is used to eliminate this problem. -->
-
 
     <!-- Keyboard Layout 1 -->
     <!--
