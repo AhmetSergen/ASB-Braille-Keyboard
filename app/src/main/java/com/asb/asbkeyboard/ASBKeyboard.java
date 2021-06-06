@@ -56,39 +56,40 @@ public class ASBKeyboard extends InputMethodService implements KeyboardView.OnKe
     // List that contains; braille code(column 0) representations of ascii codes for lowercase characters(column 1) .
     // Letters can be selected by default value or after using letter indicator(braille code=56)
     // row -> {braille dot code, lowercase char ascii code equivalent}
-    // {Braille Code,     ASCII Code}
+    // {Braille Code, Lowercase ASCII Code, Uppercase ASCII Code}
     static String[][] brailleAlphabet = {
-            {"1",       "97"},  // a
-            {"12",      "98"},  // b
-            {"14",      "99"},  // c
-            {"16",      "231"}, // ç
-            {"145",     "100"}, // d
-            {"15",      "101"}, // e
-            {"124",     "102"}, // f
-            {"1245",    "103"}, // g
-            {"126",     "287"}, // ğ
-            {"125",     "104"}, // h
-            {"35",      "141"}, // ı
-            {"24",      "105"}, // i
-            {"245",     "106"}, // j
-            {"13",      "107"}, // k
-            {"123",     "108"}, // l
-            {"134",     "109"}, // m
-            {"1345",    "110"}, // n
-            {"135",     "111"}, // o
-            {"246",     "246"}, // ö
-            {"1234",    "112"}, // p
-            {"12345",   "113"}, // q
-            {"1235",    "114"}, // r
-            {"234",     "115"}, // s
-            {"146",     "351"}, // ş
-            {"2345",    "116"}, // t
-            {"136",     "117"}, // u
-            {"1236",    "118"}, // v
-            {"2456",    "119"}, // w
-            {"1346",    "120"}, // x
-            {"13456",   "121"}, // y
-            {"1356",    "122"}, // z
+            {"1",       "97",   "65"},  // a
+            {"12",      "98",   "66"},  // b
+            {"14",      "99",   "67"},  // c
+            {"16",      "231",  "199"}, // ç
+            {"145",     "100",  "68"},  // d
+            {"15",      "101",  "69"},  // e
+            {"124",     "102",  "70"},  // f
+            {"1245",    "103",  "71"},  // g
+            {"126",     "287",  "286"}, // ğ
+            {"125",     "104",  "72"},  // h
+            {"35",      "305",  "73"},  // ı
+            {"24",      "105",  "73"},  // i
+            {"245",     "106",  "74"},  // j
+            {"13",      "107",  "75"},  // k
+            {"123",     "108",  "76"},  // l
+            {"134",     "109",  "77"},  // m
+            {"1345",    "110",  "78"},  // n
+            {"135",     "111",  "79"},  // o
+            {"246",     "246",  "214"}, // ö
+            {"1234",    "112",  "80"},  // p
+            {"12345",   "113",  "81"},  // q
+            {"1235",    "114",  "82"},  // r
+            {"234",     "115",  "83"},  // s
+            {"146",     "351",  "350"}, // ş
+            {"2345",    "116",  "84"},  // t
+            {"136",     "117",  "85"},  // u
+            {"1256",    "252",  "220"}, // ü
+            {"1236",    "118",  "86"},  // v
+            {"2456",    "119",  "87"},  // w
+            {"1346",    "120",  "88"},  // x
+            {"13456",   "121",  "89"},  // y
+            {"1356",    "122",  "90"},  // z
 
             // Some punctuation signs can be selected by default single braille codes (like ?=236)
             // This list contains punctuation signs that can be selected via default single braille code
@@ -259,7 +260,7 @@ public class ASBKeyboard extends InputMethodService implements KeyboardView.OnKe
             pressedButtonsStackArray[touchCount]= key_code;
         }
         if (touchCount ==0) { // If its first touch, start timer for braille code commitment. Selected braille code will be committed after waiting idle(not touching any other button) for specified time.
-            final Timer myTimer=new Timer();
+            final Timer myTimer = new Timer();
             TimerTask task =new TimerTask() {
                 @Override
                 public void run() {
@@ -273,8 +274,8 @@ public class ASBKeyboard extends InputMethodService implements KeyboardView.OnKe
                             if (pressedButtonsStackArray[index] == 0){
                                 break;
                             }
-                            int length_of_array_item = getLength(pressedButtonsStackArray[index] );
-                            if ( length_of_array_item == 1 ){                               // If pressed button of current index is belongs to main area (1|2|3|4|5|6)
+                            int lengthOfArrayItem = getLength(pressedButtonsStackArray[index]);
+                            if ( lengthOfArrayItem == 1 ){                               // If pressed button of current index is belongs to main area (1|2|3|4|5|6)
                                 currentCode[pressedButtonsStackArray[index] - 1 ] = pressedButtonsStackArray[index];
                             }
                             else{                                                           // If pressed button of current index is a cross area (12|14|145 ...)
@@ -320,7 +321,7 @@ public class ASBKeyboard extends InputMethodService implements KeyboardView.OnKe
                         String currentCodeSTR = "";
                         for (int i=0;i<6;i++){
                             if(currentCode[i]!=0){
-                                currentCodeSTR = currentCodeSTR+ currentCode[i];
+                                currentCodeSTR = currentCodeSTR + currentCode[i];
                             }
                         }
 
@@ -366,7 +367,8 @@ public class ASBKeyboard extends InputMethodService implements KeyboardView.OnKe
                                         if(speech==true) {
                                             textToSpeech.speak("" + code, TextToSpeech.QUEUE_FLUSH, null);
                                         }
-                                        ic.commitText(String.valueOf(code), 1);  // Commit
+                                        ic.commitText(String.valueOf(code), 1);  // Commit current braille code
+                                        Log.i("Committed Character: ","" + String.valueOf(code));
                                         break;
                                     }
                                 }
@@ -408,17 +410,22 @@ public class ASBKeyboard extends InputMethodService implements KeyboardView.OnKe
                             else {                                                          // else
                                 for (int i = 0; i < 39; i++) {
                                     if (currentCodeSTR.equals(brailleAlphabet[i][0])) {
-                                        // Commit current braille code
                                         char code = (char) Integer.parseInt(brailleAlphabet[i][1]);
-                                        if (Character.isLetter(code) && (singleCaps | wordCaps)) {  // If caps lock is open, convert to upper case
-                                            code = Character.toUpperCase(code);
+                                        if (Character.isLetter(code) && (singleCaps | wordCaps)) {  // If caps lock is open, convert to Uppercase
+                                            // Raise current braille code
+                                            code = (char) Integer.parseInt(brailleAlphabet[i][2]);
+                                            singleCaps = false;
+                                        }else{                                                      // Lowercase
+                                            // Raise current braille code
+                                            code = (char) Integer.parseInt(brailleAlphabet[i][1]);
                                             singleCaps = false;
                                         }
                                         if(speech==true) {
                                             textToSpeech.speak("" + code, TextToSpeech.QUEUE_FLUSH, null);
                                         }
                                         singleCaps = false;
-                                        ic.commitText(String.valueOf(code), 1);  // Commit
+                                        ic.commitText(String.valueOf(code), 1);  // Commit current braille code
+                                        Log.i("Committed Character: ","" + String.valueOf(code));
                                         break;
                                     }
                                 }
