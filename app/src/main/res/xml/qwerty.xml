@@ -4,6 +4,20 @@
     android:verticalGap="0px"
     >
 
+    <!-- Description -->
+    <!--
+    android:codes="14" -> means that if this button is pressed,
+    number 1 braille dot should be embossed,
+    or if number 1 is already embossed, then number 4 braille dot should be embossed, for current braille character.
+    -->
+
+    <!-- Note: Keyboard Layout 1 (which is the original and considered the most suitable layout) is unavailable to use for now (01.06.2021) due to problems with some devices. -->
+    <!-- Problem: Due to different resolution ratios, 28 button Layout 1 is unusable because some of the keyboard buttons may not be pressed. -->
+    <!-- Instead of, Keyboard Layout 2 is used to eliminate this problem. -->
+
+
+    <!-- Keyboard Layout 1 -->
+    <!--
     <Row android:rowEdgeFlags="top" android:keyHeight="20%p">
         <Key android:keyLabel="1"
             android:keyWidth="30%p"
@@ -121,6 +135,41 @@
             android:codes="63"/>
         <Key android:keyLabel="6"
             android:keyWidth="30%p"
+            android:keyEdgeFlags="right"
+            android:codes="6"/>
+    </Row>
+    -->
+
+    <!-- Keyboard Layout 2 -->
+    <Row android:rowEdgeFlags="top" android:keyHeight="34%p">
+        <Key android:keyLabel="1"
+            android:keyWidth="50%p"
+            android:keyEdgeFlags="left"
+            android:codes="1" />
+        <Key android:keyLabel="4"
+            android:keyWidth="50%p"
+            android:keyEdgeFlags="right"
+            android:codes="4"/>
+    </Row>
+
+    <Row android:keyHeight="32%p">
+        <Key android:keyLabel="2"
+            android:keyWidth="50%p"
+            android:keyEdgeFlags="left"
+            android:codes="2" />
+        <Key android:keyLabel="5"
+            android:keyWidth="50%p"
+            android:keyEdgeFlags="right"
+            android:codes="5"/>
+    </Row>
+
+    <Row android:rowEdgeFlags="bottom" android:keyHeight="34%p">
+        <Key android:keyLabel="3"
+            android:keyWidth="50%p"
+            android:keyEdgeFlags="left"
+            android:codes="3"/>
+        <Key android:keyLabel="6"
+            android:keyWidth="50%p"
             android:keyEdgeFlags="right"
             android:codes="6"/>
     </Row>
